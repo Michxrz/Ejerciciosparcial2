@@ -1,5 +1,5 @@
 nombre="Michelle" #Esta variable almacena un string
-edad=16 #Esta variable almacena un entero
+edad=17 #Esta variable almacena un entero
 estatura=160
 colorFavorito="Verde"
 
