@@ -1,7 +1,6 @@
 name = ""
 lastName =""
 age = 0
-birthday = ""
 email = ""
 password = ""
 confirmPass = ""
@@ -23,12 +22,11 @@ match opcion:#Aquí inicia el match, que es una validación de caso
         name = input("Ingresa tu nombre: ")
         lastName = input("Ingresa tu apellido: ")
         age = int(input("Ingresa tu edad: "))
-        birthday = input("Ingresa tu fecha de nacimiento: ")
         email = input("Ingresa tu correo electrónico: ")
         password = input("Ingresa tu contraseña: ")
         confirmPass = input("Confirma tu contraseña: ")
     case 2:
-        print("Nombre:", name, "Edad:", age, "Fecha de nacimiento:", birthday, "Correo electrónico:", email, "Contraseña:", password)
+        print("Nombre:", name, "Edad:", age, "Correo electrónico:", email, "Contraseña:", password)
     case 3:
         name = ""
         lastName = ""
@@ -40,10 +38,9 @@ match opcion:#Aquí inicia el match, que es una validación de caso
         name = input("Ingresa tu nombre: ")
         lastName = input("Ingresa tu apellido: ")
         age = int(input("Ingresa tu edad: "))
-        birthday = input("Ingresa tu fecha de nacimiento: ")
         email = input("Ingresa tu correo electrónico: ")
         password = input("Ingresa tu contraseña: ")
     case 5:
-        print("¡Hasta luego!")
+        print("¡Adios!")
     case _:
         print("Opción no válida")
